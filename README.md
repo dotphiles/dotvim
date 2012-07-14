@@ -1,77 +1,18 @@
-## Dotvim
+dotvim
+======
 
-### This is a complete Vim configuration that I'm using everywhere.
+A framework for settinsg up vim using pathogen
 
-The config is using [Vundle](http://github.com/gmarik/vundle) for easy upgrading.
+Installation
+------------
 
-*Some* help tips are provided for *some* of the plugins. please check out the plugin's docs for more info.
+From your homedirectory:
 
-<a name=top>
-#### Contents
+    git --recursive clone git://github.com/dotvim/dotvim.git .vim
+    cp .vim/templates/vimrc-example .vimrc
 
-* [Installation](#installation)
-* [General Configuration](#general)
-* [Backups](#backups)
-* [Persistent Undo](#undo)
-* [Macros](#macros)
-* [Interesting Plugins](#interesting)
-  * [nerdtree](#nerdtree)
-  * [nerdcommenter](#nerdcommenter)
-  * [Command-T](#Command-T)
-  * [AutoComplPop](#AutoComplPop)
-  * [taglist.vim](#taglist.vim)
-  * [YankRing.vim](#YankRing.vim)
-  * [vim-fugitive](#vim-fugitive)
-  * [syntastic](#syntastic)
-  * [snipmate](#snipmate)
-  * [vim-surround](#vim-surround)
-  * [vim-align](#vim-align)
-  * [ack.vim](#ack.vim)
-  * [vim-indentobject](#vim-indentobject)
-  * [greplace.vim](#greplace.vim)
-  * [vim-powerline](#vim-powerline)
-  * [threesome.vim](#threesome.vim)
-  * [vim-endwise](#vim-endwise)
-  * [delimitMate](#delimitMate)
-  * [Gundo](#dgundo)
-* [Ruby/Rails Support](#ruby)
-  * [vim-rails](#vim-rails)
-  * [vim-bundler](#vim-bundler)
-  * [vim-rake](#vim-rake)
-  * [vim-textobj-rubyblock](#vim-textobj-rubyblock)
-  * [vim-ruby-refactoring](#vim-ruby-refactoring)
-  * [apidock.vim](#apidock.vim)
-* [Org mode and support plugins](#orgmode)
-  * [calendar](#calendar)
-  * [NrrwRgn](#NrrwRgn)
-  * [utl.vim](#utl.vim)
-  * [VimOrganizer](#VimOrganizer)
-* [Color themes](#themes)
-  * [vim-colors-solarized](#vim-colors-solarized)
-  * [vim-vividchalk](#vim-vividchalk)
-* [Syntax plugins](#syntax)
-* ["Support" and "minor" plugins](#minor)
-* [Misc Bindings](#misc)
-* [Russian Translit Layout support](#russian)
-
-<a name=installation>
-##### Installation
-
-From your homedirectory (on Linux/Mac OSX):
-
-* `git clone git://github.com/astrails/dotvim.git`
-* `ln -sfn dotvim .vim`
-* `ln -sfn dotvim/vimrc .vimrc`
-* `cd .vim; make install`
-* create ~/.local.vim if you want to have some
-  local/personal settings you don't want to commit into the repo
-
-Note: if you already have `~/.vim` `~/.vimrc` REMOVE THEM (you might want to backup them first :)
-
-[top](#top)
-
-<a name=general>
-#### General configuration
+General configuration
+---------------------
 
 `,` is used as mapleader
 `backslash` is used as localleader
@@ -87,16 +28,14 @@ Note: if you already have `~/.vim` `~/.vimrc` REMOVE THEM (you might want to bac
 * `,W` - remove trailing spaces
 * `Ctrl-g`/`h`/`j`/`k` - simplified split panes navigation
 
-Check out the 'plugins.vim' and 'after/plugin/bindings.vim' files for more...
+Check out the 'plugin/settings/\*.vim' for more...
 
-[top](#top)
-
-<a name=backups>
-#### Backups
+Backups
+-------
 
 Backups and swapfiles are disabled. I really hate them both.
 
-You can re-enable backups by adding the following to your `~/.local.vim`:
+You can re-enable backups by adding the following to your `~/.vimrc`:
 
     set backup
 
@@ -108,44 +47,17 @@ backup dir is set to ~/.backup/
 
 The directory is created if it doesn't exist.
 
-[top](#top)
-
-<a name=undo>
-#### Persistent Undo
+Persistent Undo
+---------------
 
 Persistent undos are enabled by default.
 
-You can disable by adding the following to your `~/.local.vim`:
+You can disable by adding the following to your `~/.vimrc`:
 
     set noundo
 
-[top](#top)
-
-<a name=macros>
-#### Macros
-
-I included a couple of macros that I frequently use in macros.vim which
-is loaded from after.vim:
-
-*    `@q` (re)format paragraph forward
-*    `@s` enclose selection with double \*. e.g. \*\*foo\*\*.
-
-You really should start writing your own macros. The life will never be the
-same ;).
-
-I recommend editing your macros in a vim buffer.
-
-To load a macro into a register you can 'yank' it.
-
-For example if you have a line with a macro and cursor is at the beginning of
-it `"ay$`  will load the macro into register `a`, so that you will be able to
-execute it with `@a`.
-
-[top](#top)
-
-<a name=interesting>
-#### "Interesting" Plugins:
-
+"Interesting" Plugins
+---------------------
 
 *   <a name=nerdtree>[nerdtree](http://github.com/scrooloose/nerdtree) ([top](#top))
 
@@ -622,32 +534,56 @@ randomly chosen bits of vim goodness.
 * `"xp` paste from register x
 * `:reg` Display the contents of all numbered and named registers.
 
+Contribute
+----------
 
-[top](#top)
+This project would not exist without all of its users and [contributors][9].
 
-<a name=russian>
-#### Russian Translit Layout support
+If you have ideas on how to make the configuration easier to maintain or
+improve its performance, do not hesitate to fork and send pull requests.
 
-There is ~/.vim/bindings/ru-translit.vim file.
+### Issue Reporting
 
-OSX has a nice russian translit keyboard layout which I use when I need to
-write any russian text. The problem is that once I go to the normal mode
-nothing works. This is an attempt to make vim at least partially useful when
-the kerboard is in russioan translit mode and not in the default US mode. The
-idea is to remap the russian characters to the english characters that
-correspond to the same keyboard key. And a couple of userful multy-key
-combinations.
+   - Check that the issue has not already been reported.
+   - Check that the issue has not already been fixed in the latest code.
+   - Open an issue with a clear title and description in grammatically correct,
+     complete sentences.
 
-Similar can be done for other keyboard layouts, your pull requests are
-welcome ;).
+### Pull Request
 
-To use this feature: just include the file from your ~/.local.vim:
+   - Read [how to properly contribute to open source projects on GitHub][10].
+   - Use a topic branch to easily amend a pull request later, if necessary.
+   - Write [good commit messages][11].
+   - Squash commits on the topic branch before opening a pull request.
+   - Use the same coding style and spacing.
+   - Open a [pull request][12] that relates to but one subject with a clear
+     title and description in gramatically correct, complete sentences.
 
-    source ~/.vim/bindings/ru-translit.vim
+License
+-------
 
-[top](#top)
+Copyright (c) 2012 Ben O'Hara <bohara@gmail.com>
 
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
 
-#### Copyright
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-&copy; 2012 [Vitaly Kushner](mailto:vitaly@astrails.com)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[9]: https://github.com/dotphiles/dotzsh/contributors
+[10]: http://gun.io/blog/how-to-github-fork-branch-and-pull-request
+[11]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+[12]: https://help.github.com/articles/using-pull-requests
+
