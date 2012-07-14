@@ -1,0 +1,18 @@
+"
+" dotphiles : https://github.com/dotvim/dotvim
+"
+" Setup vim and load required plugins before dotvim
+"
+" Authors:
+"   Ben O'Hara
+"
+
+if has("user_commands")
+  set nocompatible
+  filetype off
+  call pathogen#infect()
+endif
+
+" Call dotvim 
+source ~/.vim/dotvim.vim
+

@@ -1,0 +1,37 @@
+#
+# dotvim : https://github.com/dotvim/dotvim
+#
+# ChangeLog
+#
+
+2012-06-19
+	* calendar.vim
+	* NrrwRgn plugin (Narrow Region)
+	* utl.vim plugin (universal text links)
+	* VimOrganizer plugin (emacs' org mode support)
+	* settings.vim merged into global.vim
+	* added after-plugins.vim to override plugin settings
+	* Gundo plugin
+
+2012-06-18
+	* support persistent undo
+	* OSX russian translit keyboard layout support
+	* READE table of contents
+
+2012-06-11
+	* attempt to support command-t install on non-OSX systems. trying to guess
+	  ruby binary
+	* vim-slim plugin for Slim syntax support
+
+2012-06-07
+	* after.vim: reworked loading of bindings.vim after plugins.
+	  local now also loaded after all the plugins
+	* deprecated ~/.vim_local
+	* new file ~/.local.vim
+	* macros.vim - a couple of useful macros
+	* added CHANGELOG ;)
+	* change command-t repo to github. original is down all the time
+	* use 'make install' or remove bundle/command-t before you update
+	* use direct clone for vundle instead of submodules.
+	* latest git submodules cupport is incompatible with vundle
+
