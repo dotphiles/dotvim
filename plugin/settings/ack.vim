@@ -1,11 +1,13 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
+" Setup ack
+"
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-if has("mac")
-  let g:browser = "open "
-endif
+" Ack
+" ,a for Ack
+nmap <leader>k :Ack
 

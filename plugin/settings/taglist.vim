@@ -1,11 +1,13 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Load required config files
+" Setup taglist
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-call pathogen#infect('~/.vim.local/bundle')
+" ,t to show tags window
+let Tlist_Show_Menu=1
+nmap <leader>t :TlistToggle<CR>
 

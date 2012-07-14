@@ -1,11 +1,13 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Load required config files
+" Setup syntastic
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-call pathogen#infect('~/.vim.local/bundle')
+" syntastic
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=2
 

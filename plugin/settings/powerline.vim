@@ -1,11 +1,12 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Load required config files
+" Setup powerline
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-call pathogen#infect('~/.vim.local/bundle')
+" Powerline
+let g:Powerline_symbols = 'fancy'
 

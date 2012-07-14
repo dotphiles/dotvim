@@ -1,11 +1,13 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Load required config files
+" Setup gundu
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-call pathogen#infect('~/.vim.local/bundle')
+" Gundo
+nmap <leader>u :GundoToggle<CR>
+let g:gundo_close_on_revert = 1
 

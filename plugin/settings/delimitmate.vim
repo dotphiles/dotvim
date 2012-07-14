@@ -1,11 +1,13 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Load required config files
+" Setup delimitMate
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-call pathogen#infect('~/.vim.local/bundle')
+" delimitMate
+let g:delimitMate_expand_space = 1
+let g:delimitMate_expand_cr = 1
 
