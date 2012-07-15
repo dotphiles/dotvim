@@ -35,10 +35,6 @@
 	path = bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
     ignore = dirty
-[submodule "bundle/editorconfig-vim"]
-	path = bundle/editorconfig-vim
-	url = https://github.com/editorconfig/editorconfig-vim.git
-    ignore = dirty
 [submodule "bundle/gist-vim"]
 	path = bundle/gist-vim
 	url = https://github.com/mattn/gist-vim.git
