@@ -10,7 +10,6 @@
 .*
 sessions
 spell
-backup
 !.gitignore
 !.gitmodules
 
