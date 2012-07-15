@@ -231,3 +231,9 @@
 	path = bundle/neocomplcache-snippets-complete
 	url = https://github.com/Shougo/neocomplcache-snippets-complete.git
     ignore = dirty
+[submodule "bundle/color_highlight"]
+	path = bundle/color_highlight
+	url = https://github.com/chrisbra/color_highlight.git
+[submodule "bundle/nerdtree-tabs"]
+	path = bundle/nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git

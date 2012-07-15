@@ -8,8 +8,8 @@
 "
 
 " nerdtree
-" Ctrl-P to Display the file browser tree
-nmap <F4> :NERDTreeToggle<CR>
+" Ctrl-F4 to Display the file browser tree
+nmap <F4> :NERDTreeTabsToggle<CR>
 " ,p to show current file in the tree
 nmap <leader>p :NERDTreeFind<CR>
 
