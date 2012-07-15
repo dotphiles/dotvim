@@ -234,6 +234,8 @@
 [submodule "bundle/color_highlight"]
 	path = bundle/color_highlight
 	url = https://github.com/chrisbra/color_highlight.git
+    ignore = dirty
 [submodule "bundle/nerdtree-tabs"]
 	path = bundle/nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
+    ignore = dirty
