@@ -8,6 +8,7 @@
 #
 
 .*
+bundle
 sessions
 spell
 !.gitignore
