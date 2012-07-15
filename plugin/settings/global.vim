@@ -83,11 +83,11 @@ endif
 set nobackup            " do not write backup files
 set noswapfile          " do not write .swp files
 if has("persistent_undo")
-  silent !mkdir -vp ~/.vim/backup/undo/ > /dev/null 2>&1
-  set backupdir=~/.vim/backup,.       " list of directories for the backup file
-  set directory=~/.vim/backup,~/tmp,. " list of directory names for the swap file
+  silent !mkdir -vp ~/.backup/vim/undo/ > /dev/null 2>&1
+  set backupdir=~/.backup/vim,.       " list of directories for the backup file
+  set directory=~/.backup/vim,~/tmp,. " list of directory names for the swap file
   set undofile
-  set undodir=~/.vim/backup/undo/,~/tmp,.
+  set undodir=~/.backup/vim/undo/,~/tmp,.
 endif
 
 " folding

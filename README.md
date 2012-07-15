@@ -43,7 +43,7 @@ You can re-enable backups by adding the following to your `~/.vimrc`:
 
     set swapfile
 
-backup dir is set to ~/.backup/
+backup dir is set to ~/.backup/vim/
 
 The directory is created if it doesn't exist.
 
