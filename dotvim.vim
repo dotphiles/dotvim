@@ -6,6 +6,7 @@
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
-
-call pathogen#infect('~/.vim.local/bundle')
+if has("usercmds")
+  call pathogen#infect('~/.vim.local/bundle')
+endif
 

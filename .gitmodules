@@ -203,10 +203,6 @@
 	path = bundle/Puppet-Syntax-Highlighting
 	url = https://github.com/vim-scripts/Puppet-Syntax-Highlighting.git
 	ignore = dirty
-[submodule "bundle/VimClojure"]
-	path = bundle/VimClojure
-	url = https://github.com/vim-scripts/VimClojure.git
-	ignore = dirty
 [submodule "bundle/jekyll.vim"]
 	path = bundle/jekyll.vim
 	url = https://github.com/csexton/jekyll.vim.git
