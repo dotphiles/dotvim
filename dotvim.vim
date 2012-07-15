@@ -8,4 +8,3 @@
 "
 
 call pathogen#infect('~/.vim.local/bundle')
-

@@ -16,3 +16,5 @@ endif
 " Call dotvim 
 source ~/.vim/dotvim.vim
 
+" Customize to your needs...
+

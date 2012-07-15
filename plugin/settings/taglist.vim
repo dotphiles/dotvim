@@ -9,5 +9,5 @@
 
 " ,t to show tags window
 let Tlist_Show_Menu=1
-nmap <leader>t :TlistToggle<CR>
+nmap <leader>t :TagbarToggle<CR>
 

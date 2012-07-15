@@ -71,10 +71,6 @@
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
     ignore = dirty
-[submodule "bundle/taglist.vim"]
-	path = bundle/taglist.vim
-	url = https://github.com/vim-scripts/taglist.vim.git
-    ignore = dirty
 [submodule "bundle/threesome.vim"]
 	path = bundle/threesome.vim
 	url = https://github.com/sjl/threesome.vim.git
@@ -226,4 +222,8 @@
 [submodule "bundle/vim-markdown-jekyll"]
 	path = bundle/vim-markdown-jekyll
 	url = https://github.com/PProvost/vim-markdown-jekyll.git
+    ignore = dirty
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git
     ignore = dirty
