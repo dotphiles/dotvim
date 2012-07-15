@@ -8,5 +8,9 @@
 "
 "
 
-let g:neocomplcache_enable_at_startup = 1
+if v:version > 700
+  Bundle 'Shougo/neocomplcache'
+  Bundle 'Shougo/neocomplcache-snippets-complete'
+  let g:neocomplcache_enable_at_startup = 1
+endif
 

@@ -75,9 +75,6 @@ if has("user_commands")
   Bundle 'Puppet-Syntax-Highlighting'
   Bundle 'csexton/jekyll.vim'
   Bundle 'PProvost/vim-markdown-jekyll'
-  Bundle 'majutsushi/tagbar'
-  Bundle 'Shougo/neocomplcache'
-  Bundle 'Shougo/neocomplcache-snippets-complete'
   Bundle 'chrisbra/color_highlight'
   Bundle 'jistr/vim-nerdtree-tabs'
   if iCanHazVundle == 0
