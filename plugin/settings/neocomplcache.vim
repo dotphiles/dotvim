@@ -1,13 +1,12 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Setup taglist
+" Setup neocomplcache
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
+"
 
-" ,t to show tags window
-let Tlist_Show_Menu=1
-nmap <leader>t :TagbarToggle<CR>
+let g:neocomplcache_enable_at_startup = 1
 

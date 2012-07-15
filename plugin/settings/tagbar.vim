@@ -1,11 +1,13 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Load required config files
+" Setup tagbar
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-call pathogen#infect('~/.vim.local/bundle')
+" ,t to show tags window
+let g:tagbar_usearrows = 1
+nmap <leader>t :TagbarToggle<CR>
 

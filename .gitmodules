@@ -195,10 +195,6 @@
 	path = bundle/vim-rcov
 	url = https://github.com/vitaly/vim-rcov.git
     ignore = dirty
-[submodule "bundle/AutoComplPop"]
-	path = bundle/AutoComplPop
-	url = https://github.com/vim-scripts/AutoComplPop.git
-    ignore = dirty
 [submodule "bundle/Indent-Guides"]
 	path = bundle/Indent-Guides
 	url = https://github.com/vim-scripts/Indent-Guides.git
@@ -226,4 +222,12 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar.git
+    ignore = dirty
+[submodule "bundle/neocomplcache"]
+	path = bundle/neocomplcache
+	url = https://github.com/Shougo/neocomplcache.git
+    ignore = dirty
+[submodule "bundle/neocomplcache-snippets-complete"]
+	path = bundle/neocomplcache-snippets-complete
+	url = https://github.com/Shougo/neocomplcache-snippets-complete.git
     ignore = dirty
