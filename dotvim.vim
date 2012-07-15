@@ -77,6 +77,11 @@ if has("user_commands")
   Bundle 'PProvost/vim-markdown-jekyll'
   Bundle 'chrisbra/color_highlight'
   Bundle 'jistr/vim-nerdtree-tabs'
+  if v:version > 700
+    Bundle 'Shougo/neocomplcache'
+    Bundle 'Shougo/neocomplcache-snippets-complete'
+    Bundle 'majutsushi/tagbar'
+  endif
   if iCanHazVundle == 0
     echo "Installing Bundles, please ignore key map error messages"
     echo ""
