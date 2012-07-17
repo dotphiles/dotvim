@@ -7,6 +7,8 @@
 "   Ben O'Hara <bohara@gmail.com>
 "
 
+let &runtimepath = printf('%s,%s', '~/.vim.local', &runtimepath)
+
 if has("user_commands")
   " Setting up Vundle - the vim plugin bundler
   let VundleInstalled=0
