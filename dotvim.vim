@@ -22,3 +22,5 @@ if has("user_commands")
   endif
 endif
 
+" seems broken, not sure if config or vim!
+autocmd BufNewFile,BufRead *.git/modules/*/COMMIT_EDITMSG setf gitcommit
