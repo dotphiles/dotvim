@@ -28,8 +28,9 @@ set ruler               " line and column number of the cursor position
 set wildmenu            " enhanced command completion
 set visualbell          " use visual bell instead of beeping
 set laststatus=2        " always show the status lines
-set list listchars=tab:→\ ,trail:·
+set list listchars=tab:→\ ,trail:▸
 set cursorline
+set clipboard=unnamed
 
 if has("user_commands")
   colorscheme solarized
