@@ -7,6 +7,8 @@
 "   Ben O'Hara <bohara@gmail.com>
 "
 
+let dotvim_version=0.1.1
+
 let &runtimepath = printf('%s,%s', '~/.vim.local', &runtimepath)
 
 if has("user_commands")
@@ -24,3 +26,4 @@ endif
 
 " seems broken, not sure if config or vim!
 autocmd BufNewFile,BufRead *.git/modules/*/COMMIT_EDITMSG setf gitcommit
+
