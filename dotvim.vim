@@ -8,7 +8,7 @@
 "
 
 if has("user_commands")
-  let g:dotvim_version=0.1.1
+  let g:dotvim_version=0.1.2
   let &runtimepath = printf('%s,%s', '~/.vim.local', &runtimepath)
   " Setting up Vundle - the vim plugin bundler
   let VundleInstalled=0
