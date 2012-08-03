@@ -1,7 +1,7 @@
 dotvim
 ======
 
-A framework for settinsg up vim using pathogen
+A framework for setting up vim and plugins using vundle.
 
 Installation
 ------------
@@ -9,7 +9,12 @@ Installation
 From your homedirectory:
 
     git --recursive clone git://github.com/dotvim/dotvim.git .vim
-    cp .vim/templates/vimrc-example .vimrc
+    cp .vim/templates/vimrc .vimrc
+    cp .vim/templates/gvimrc .gvimrc
+
+    vim (will install vundle and plugins from .vimrc)
+
+    :BundleInstall (in vim will install plugins)
 
 General configuration
 ---------------------
@@ -83,6 +88,7 @@ randomly chosen bits of vim goodness.
 
 Contribute
 ----------
+
 This project would not exist without all of its users and [contributors][1].
 
 If you have ideas on how to make the configuration easier to maintain or
