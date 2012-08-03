@@ -20,7 +20,7 @@ if has("user_commands")
     silent !git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
     let VundleInstalled=1
   endif
-"  let g:neocomplcache_enable_at_startup=1
+  let g:neocomplcache_enable_at_startup=1
 endif
 
 if has("autocmd")
