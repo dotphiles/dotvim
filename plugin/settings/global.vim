@@ -99,9 +99,6 @@ if has("folding")
   set nofoldenable        "dont fold by default "
 endif
 
-" extended '%' mapping for if/then/else/end etc
-runtime macros/matchit.vim
-
 if has("user_commands")
   let mapleader = ","
   let maplocalleader = "\\"
