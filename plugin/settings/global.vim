@@ -1,7 +1,7 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Set global settings for vim
+" Global settings for vim
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
@@ -31,11 +31,6 @@ set laststatus=2        " always show the status lines
 set list listchars=tab:→\ ,trail:▸
 set cursorline
 set clipboard=unnamed
-
-if has("user_commands")
-  colorscheme solarized
-  set background=dark
-endif
 
 " highlight spell errors
 hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
