@@ -1,15 +1,12 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Setup color scheme
+" Setup ctrlp
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-if has("user_commands")
-  colorscheme solarized
-  set background=dark
-endif
-
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
 

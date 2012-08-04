@@ -6,6 +6,7 @@
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
+
 if exists('g:loaded_indent_guides')
   " indent-guides
   let g:indent_guides_start_level = 2
