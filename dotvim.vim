@@ -6,6 +6,7 @@
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
+"
 
 set nocompatible
 
@@ -102,7 +103,6 @@ endif
 
 " Install vundle if not already installed
 if has("user_commands")
-  let g:dotvim_version=0.1.3
   " Setting up Vundle - the vim plugin bundler
   let VundleInstalled=0
   let vundle_readme=expand('~/.vim/bundle/vundle/README.md')
