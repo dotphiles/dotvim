@@ -12,9 +12,14 @@ From your homedirectory:
     cp .vim/templates/vimrc .vimrc
     cp .vim/templates/gvimrc .gvimrc
 
-    vim (will install vundle and plugins from .vimrc)
+Edit `vimrc`
+
+    let g:vundles=['general', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc']
+
+And enable *vundles* to install, see plugin/settings/README.md
 
     :BundleInstall (in vim will install plugins)
+    :BundleClean (in vim will remove unused plugins)
 
 General configuration
 ---------------------
