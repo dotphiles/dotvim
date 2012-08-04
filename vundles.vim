@@ -8,6 +8,9 @@
 "   Ben O'Hara <bohara@gmail.com>
 "
 
+" Vundle itself
+Bundle 'gmarik/vundle'
+
 " General
 if count(g:vundles, 'general')
   Bundle 'scrooloose/nerdtree'
