@@ -8,8 +8,10 @@
 "
 
 if VundleInstalled == 1
-  echo "Installing Bundles, please ignore key map error messages"
+  echo "** dotvim has installed vundle for the first time **\n\n"
   echo ""
-  :BundleInstall
+  echo "edit vimrc, select vundles or individual plugins to install"
+  echo "and run\n\n"
+  echo ":BundleInstall\n\n"
 endif
 
