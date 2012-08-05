@@ -16,13 +16,20 @@ let g:neocomplcache_enable_smart_case = 1
 " default # of completions is 100, that's crazy
 let g:neocomplcache_max_list = 5
 
+" Tab / Shift-Tab to cycle completions
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+inoremap <expr><S-TAB>  pumvisible() ? "\<C-p>" : "\<S-TAB>"
+
+" SuperTab like snippets behavior.
+imap <expr><TAB> neocomplcache#sources#snippets_complete#expandable() ?  "\<Plug>(neocomplcache_snippets_expand)" : pumvisible() ? "\<C-n>" : "\<TAB>"
+
 " words less than 3 letters long aren't worth completing
 let g:neocomplcache_auto_completion_start_length = 3
 
 " Map standard Ctrl-N completion to Cmd-Space
 inoremap <D-Space> <C-n>
 
-" This makes sure we use neocomplcache completefunc instead of 
+" This makes sure we use neocomplcache completefunc instead of
 " the one in rails.vim, otherwise this plugin will crap out
 let g:neocomplcache_force_overwrite_completefunc = 1
 
