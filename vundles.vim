@@ -33,6 +33,9 @@ if count(g:vundles, 'general')
   Bundle 'sudo.vim'
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'tpope/vim-fugitive'
+  Bundle 'Shougo/vimshell'
+  Bundle 'Shougo/vimproc'
+  Bundle 'honza/snipmate-snippets'
 endif
 
 " General Programming
@@ -46,7 +49,7 @@ if count(g:vundles, 'programming')
   endif
   if v:version > 700
     Bundle 'Shougo/neocomplcache'
-    Bundle 'Shougo/neocomplcache-snippets-complete'
+    Bundle 'Shougo/neosnippet'
     Bundle 'Indent-Guides'
   endif
 endif
