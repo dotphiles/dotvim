@@ -35,8 +35,6 @@ if count(g:vundles, 'general')
   Bundle 'sudo.vim'
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'tpope/vim-fugitive'
-  Bundle 'Shougo/vimshell'
-  Bundle 'vimshell-ssh'
   Bundle 'Shougo/vimproc'
   Bundle 'honza/snipmate-snippets'
 endif
