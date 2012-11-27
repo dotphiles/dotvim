@@ -18,6 +18,8 @@ if count(g:vundles, 'general')
   Bundle 'spf13/vim-colors'
   Bundle 'tpope/vim-surround'
   Bundle 'AutoClose'
+  Bundle 'vimwiki'
+  Bundle 'calendar.vim--Matsumoto'
   Bundle 'kien/ctrlp.vim'
   Bundle 'vim-scripts/sessionman.vim'
   Bundle 'matchit.zip'
@@ -34,6 +36,7 @@ if count(g:vundles, 'general')
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'tpope/vim-fugitive'
   Bundle 'Shougo/vimshell'
+  Bundle 'vimshell-ssh'
   Bundle 'Shougo/vimproc'
   Bundle 'honza/snipmate-snippets'
 endif
