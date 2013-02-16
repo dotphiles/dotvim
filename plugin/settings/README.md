@@ -30,65 +30,56 @@ Configure any additional plugins in your copy of `vimrc`
 
 Plugins groups:
 
-General:
-
-  scrooloose/nerdtree
-  altercation/vim-colors-solarized
-  tpope/vim-surround
-  AutoClose
-  vimwiki
-  calendar.vim--Matsumoto
-  kien/ctrlp.vim
-  vim-scripts/sessionman.vim
-  matchit.zip
-  Lokaltog/vim-powerline
-  Lokaltog/vim-easymotion
-  jistr/vim-nerdtree-tabs
-  flazz/vim-colorschemes
-  corntrace/bufexplorer
-  kien/ctrlp.vim
-  austintaylor/vim-indentobject
-  SearchComplete
-  sudo.vim
-  bronson/vim-trailing-whitespace
-  tpope/vim-fugitive
-  honza/snipmate-snippets
-  Shougo/vimproc
-
-Programming:
-
-  scrooloose/syntastic
-  scrooloose/nerdcommenter
-  godlygeek/tabular
-  majutsushi/tagbar
-  Shougo/neocomplcache
-  Shougo/neosnippet
-  Indent-Guides
-
-PHP:
-  spf13/PIV
-
-Python:
-  klen/python-mode
-  python.vim
-  python_match.vim
-  pythoncomplete
-
-Javascript:
-  leshill/vim-json
-  groenewege/vim-less
-  taxilian/vim-web-indent
-
-HTML:
-  HTML-AutoCloseTag
-  ChrisYip/Better-CSS-Syntax-for-Vim
-
-Ruby:
-  tpope/vim-rails
-
-Misc:
-  spf13/vim-markdown
-  spf13/vim-preview
-  tpope/vim-cucumber
-  Puppet-Syntax-Highlighting
+  - General
+    - scrooloose/nerdtree
+    - altercation/vim-colors-solarized
+    -  tpope/vim-surround
+    - AutoClose
+    - vimwiki
+    - calendar.vim--Matsumoto
+    - kien/ctrlp.vim
+    - vim-scripts/sessionman.vim
+    - matchit.zip
+    - Lokaltog/vim-powerline
+    - Lokaltog/vim-easymotion
+    - jistr/vim-nerdtree-tabs
+    - flazz/vim-colorschemes
+    - corntrace/bufexplorer
+    - kien/ctrlp.vim
+    - austintaylor/vim-indentobject
+    - SearchComplete
+    - sudo.vim
+    - bronson/vim-trailing-whitespace
+    - tpope/vim-fugitive
+    - honza/snipmate-snippets
+    - Shougo/vimproc
+  - Programming
+    - scrooloose/syntastic
+    - scrooloose/nerdcommenter
+    - godlygeek/tabular
+    - majutsushi/tagbar
+    - Shougo/neocomplcache
+    - Shougo/neosnippet
+    - Indent-Guides
+  - PHP
+    - spf13/PIV
+  - Python
+    - klen/python-mode
+    - python.vim
+    - python_match.vim
+    - pythoncomplete
+  - Javascript
+    - leshill/vim-json
+    - groenewege/vim-less
+    - taxilian/vim-web-indent
+  - HTML
+    - HTML-AutoCloseTag
+    - ChrisYip/Better-CSS-Syntax-for-Vim
+  - Ruby
+    - tpope/vim-rails
+  - Misc
+    - spf13/vim-markdown
+    - spf13/vim-preview
+    - tpope/vim-cucumber
+    - Puppet-Syntax-Highlighting
 
