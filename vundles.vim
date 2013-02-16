@@ -15,8 +15,8 @@ Bundle 'gmarik/vundle'
 if count(g:vundles, 'general')
   Bundle 'scrooloose/nerdtree'
   Bundle 'altercation/vim-colors-solarized'
-  Bundle 'tpope/vim-surround'
-  Bundle 'AutoClose'
+  ""Bundle 'tpope/vim-surround'
+  ""Bundle 'AutoClose'
   Bundle 'vimwiki'
   Bundle 'calendar.vim--Matsumoto'
   Bundle 'kien/ctrlp.vim'
@@ -42,7 +42,7 @@ endif
 " General Programming
 if count(g:vundles, 'programming')
   " Pick one of the checksyntax, jslint, or syntastic
-  Bundle 'scrooloose/syntastic'
+  ""Bundle 'scrooloose/syntastic'
   Bundle 'scrooloose/nerdcommenter'
   Bundle 'godlygeek/tabular'
   if executable('ctags')
