@@ -21,6 +21,13 @@ And enable *vundles* to install, see plugin/settings/README.md
     :BundleInstall (in vim will install plugins)
     :BundleClean (in vim will remove unused plugins)
 
+
+Neocomplcache is enabled by default, in the template vimrc
+
+    let g:neocomplcache_enable_at_startup = 1
+    " Tell Neosnippet about the other snippets
+    let g:neosnippet#snippets_directory='~/.vim/bundle/snipmate-snippets/snippets'
+
 General configuration
 ---------------------
 
