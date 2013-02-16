@@ -1,4 +1,0 @@
-[[=]] Todo List =
-    * [ ] Fix this
-    * [ ] Fix that
-    * [ ] Fix this other thing
