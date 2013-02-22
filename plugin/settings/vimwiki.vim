@@ -1,12 +1,11 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Setup ctrlp
+" Setup vimwiki
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlPMRU'
+let g:vimwiki_list = [{'path': '~/.vim/wiki/'}]
 

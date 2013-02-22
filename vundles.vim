@@ -15,9 +15,11 @@ Bundle 'gmarik/vundle'
 if count(g:vundles, 'general')
   Bundle 'scrooloose/nerdtree'
   Bundle 'altercation/vim-colors-solarized'
-  Bundle 'spf13/vim-colors'
   Bundle 'tpope/vim-surround'
-  Bundle 'AutoClose'
+  Bundle 'Raimondi/delimitMate'
+  ""Bundle 'AutoClose'
+  Bundle 'vimwiki'
+  Bundle 'calendar.vim--Matsumoto'
   Bundle 'kien/ctrlp.vim'
   Bundle 'vim-scripts/sessionman.vim'
   Bundle 'matchit.zip'
@@ -29,10 +31,13 @@ if count(g:vundles, 'general')
   Bundle 'kien/ctrlp.vim'
   Bundle 'austintaylor/vim-indentobject'
   Bundle 'SearchComplete'
-  Bundle 'Zenburn'
   Bundle 'sudo.vim'
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'tpope/vim-fugitive'
+  Bundle 'honza/snipmate-snippets'
+  if v:version > 700
+    Bundle 'Shougo/vimproc'
+  endif
 endif
 
 " General Programming
@@ -46,7 +51,7 @@ if count(g:vundles, 'programming')
   endif
   if v:version > 700
     Bundle 'Shougo/neocomplcache'
-    Bundle 'Shougo/neocomplcache-snippets-complete'
+    Bundle 'Shougo/neosnippet'
     Bundle 'Indent-Guides'
   endif
 endif
