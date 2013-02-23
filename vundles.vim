@@ -16,7 +16,6 @@ if count(g:vundles, 'general')
   Bundle 'altercation/vim-colors-solarized'
   Bundle 'tpope/vim-surround'
   Bundle 'Raimondi/delimitMate'
-  ""Bundle 'AutoClose'
   Bundle 'vimwiki'
   Bundle 'calendar.vim--Matsumoto'
   Bundle 'kien/ctrlp.vim'
