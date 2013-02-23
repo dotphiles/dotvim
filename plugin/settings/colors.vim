@@ -9,10 +9,6 @@
 
 if has("user_commands")
   set background=dark
-  if empty($ITERM_PROFILE)
-    colorscheme solarized
-  else
-    colorscheme $ITERM_PROFILE
-  endif
+  colorscheme solarized
 endif
 
