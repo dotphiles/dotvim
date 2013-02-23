@@ -1,8 +1,3 @@
-dotvim
-======
-
-A framework for setting up vim and plugins using vundle.
-
 Contribute
 ----------
 
