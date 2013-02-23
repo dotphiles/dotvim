@@ -3,7 +3,6 @@
 "
 " Essential vim plugins!
 "
-"
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "

@@ -6,7 +6,6 @@
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
-"
 
 if exists('g:loaded_neocomplcache')
   let g:neocomplcache_enable_at_startup = 1

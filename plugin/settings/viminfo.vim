@@ -1,5 +1,5 @@
 "
-" dotvim: https://github.com/dotphiles/dotvim
+" dotvim : https://github.com/dotphiles/dotvim
 "
 " Setup viminfo
 "
