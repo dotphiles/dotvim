@@ -179,15 +179,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[1]: https://github.com/dotphiles/dotvim/contributors
-[2]: https://github.com/dotphiles/dotvim/issues
-[3]: http://help.github.com/win-set-up-git/
-[4]: http://rogerdudler.github.com/git-guide/
-[5]: http://help.github.com/fork-a-repo/
-[6]: http://help.github.com/send-pull-requests/
-[7]: http://nvie.com/posts/a-successful-git-branching-model/
-[8]: http://www.twitter.com/nvie
-[9]: https://github.com/nvie/gitflow
-[10]: https://github.com/nvie/gitflow/wiki/Installation
-[11]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
-
