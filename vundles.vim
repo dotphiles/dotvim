@@ -44,6 +44,7 @@ if count(g:vundles, 'programming')
   Bundle 'scrooloose/syntastic'
   Bundle 'scrooloose/nerdcommenter'
   Bundle 'godlygeek/tabular'
+  Bundle 'ack.vim'
   if executable('ctags')
     Bundle 'majutsushi/tagbar'
   endif
