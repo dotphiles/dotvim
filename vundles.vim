@@ -32,6 +32,7 @@ if count(g:vundles, 'general')
   Bundle 'sudo.vim'
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'tpope/vim-fugitive'
+  Bundle 'k-takata/hg-vim'
   Bundle 'honza/snipmate-snippets'
   if v:version > 700
     Bundle 'Shougo/vimproc'
