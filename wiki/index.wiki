@@ -1,3 +1,0 @@
-= My knowledge base =
-    * [[Todo]] -- things to be done!!!
-    * [[Scratch Pad]] -- various temporary stuff.

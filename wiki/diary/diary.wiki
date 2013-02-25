@@ -1,7 +1,0 @@
-= Diary =
-
-== 2012 ==
-
-=== November ===
-    * [[2012-11-27|test for today]]
-
