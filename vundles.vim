@@ -16,7 +16,6 @@ if count(g:vundles, 'general')
   Bundle 'altercation/vim-colors-solarized'
   Bundle 'tpope/vim-surround'
   Bundle 'Raimondi/delimitMate'
-  ""Bundle 'AutoClose'
   Bundle 'vimwiki'
   Bundle 'calendar.vim--Matsumoto'
   Bundle 'kien/ctrlp.vim'
@@ -33,6 +32,7 @@ if count(g:vundles, 'general')
   Bundle 'sudo.vim'
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'tpope/vim-fugitive'
+  Bundle 'k-takata/hg-vim'
   Bundle 'honza/snipmate-snippets'
   if v:version > 700
     Bundle 'Shougo/vimproc'
@@ -45,6 +45,7 @@ if count(g:vundles, 'programming')
   Bundle 'scrooloose/syntastic'
   Bundle 'scrooloose/nerdcommenter'
   Bundle 'godlygeek/tabular'
+  Bundle 'ack.vim'
   if executable('ctags')
     Bundle 'majutsushi/tagbar'
   endif

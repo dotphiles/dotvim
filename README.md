@@ -16,17 +16,75 @@ Edit `vimrc`
 
     let g:vundles=['general', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc']
 
+Configure any additional plugins in your copy of `vimrc`
+
+    Bundle 'reponame'
+
 And enable *vundles* to install, see plugin/settings/README.md
 
     :BundleInstall (in vim will install plugins)
     :BundleClean (in vim will remove unused plugins)
-
 
 Neocomplcache is enabled by default, in the template vimrc
 
     let g:neocomplcache_enable_at_startup = 1
     " Tell Neosnippet about the other snippets
     let g:neosnippet#snippets_directory='~/.vim/bundle/snipmate-snippets/snippets'
+
+Plugins groups:
+
+  - General
+    - scrooloose/nerdtree
+    - altercation/vim-colors-solarized
+    - tpope/vim-surround
+    - delimitMate
+    - vimwiki
+    - calendar.vim--Matsumoto
+    - kien/ctrlp.vim
+    - vim-scripts/sessionman.vim
+    - matchit.zip
+    - Lokaltog/vim-powerline
+    - Lokaltog/vim-easymotion
+    - jistr/vim-nerdtree-tabs
+    - flazz/vim-colorschemes
+    - corntrace/bufexplorer
+    - kien/ctrlp.vim
+    - austintaylor/vim-indentobject
+    - SearchComplete
+    - sudo.vim
+    - bronson/vim-trailing-whitespace
+    - tpope/vim-fugitive
+    - honza/snipmate-snippets
+    - Shougo/vimproc
+  - Programming
+    - scrooloose/syntastic
+    - scrooloose/nerdcommenter
+    - godlygeek/tabular
+    - majutsushi/tagbar
+    - Shougo/neocomplcache
+    - Shougo/neosnippet
+    - Indent-Guides
+  - PHP
+    - spf13/PIV
+  - Python
+    - klen/python-mode
+    - python.vim
+    - python_match.vim
+    - pythoncomplete
+  - Javascript
+    - leshill/vim-json
+    - groenewege/vim-less
+    - taxilian/vim-web-indent
+  - HTML
+    - HTML-AutoCloseTag
+    - ChrisYip/Better-CSS-Syntax-for-Vim
+  - Ruby
+    - tpope/vim-rails
+  - Misc
+    - spf13/vim-markdown
+    - spf13/vim-preview
+    - tpope/vim-cucumber
+    - Puppet-Syntax-Highlighting
 
 General configuration
 ---------------------
@@ -101,7 +159,7 @@ randomly chosen bits of vim goodness.
 License
 -------
 
-Copyright (c) 2012 Ben O'Hara <bohara@gmail.com>
+Copyright (c) 2012 [dotvim contributers][1]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -121,15 +179,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[1]: https://github.com/dotphiles/dotvim/contributors
-[2]: https://github.com/dotphiles/dotvim/issues
-[3]: http://help.github.com/win-set-up-git/
-[4]: http://rogerdudler.github.com/git-guide/
-[5]: http://help.github.com/fork-a-repo/
-[6]: http://help.github.com/send-pull-requests/
-[7]: http://nvie.com/posts/a-successful-git-branching-model/
-[8]: http://www.twitter.com/nvie
-[9]: https://github.com/nvie/gitflow
-[10]: https://github.com/nvie/gitflow/wiki/Installation
-[11]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+[1]: https://github.com/dotphiles/dotvim/graphs/contributors
 
