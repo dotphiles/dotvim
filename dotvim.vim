@@ -37,7 +37,7 @@ map <F7> :setlocal spell! spell?<CR>
 " ignore these files when completing names and in explorer
 set wildignore=.svn,CVS,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif
 set shell=$SHELL        " use current shell for shell commands
-set autowriteall        " Automatically save before commands like :next and :make
+"set autowriteall        " Automatically save before commands like :next and :make
 set hidden              " enable multiple modified buffers
 set history=1000
 set autoread            " automatically read feil that has been changed on disk and doesn't have changes in vim
