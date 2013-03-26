@@ -36,6 +36,7 @@ if count(g:vundles, 'general')
   Bundle 'honza/snipmate-snippets'
   if v:version > 700
     Bundle 'Shougo/vimproc'
+    Bundle 'Shougo/vimshell'
   endif
 endif
 
