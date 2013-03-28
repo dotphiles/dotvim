@@ -1,4 +1,4 @@
-" 
+"
 " dotvim : https://github.com/dotphiles/dotvim
 "
 " Setup macros
