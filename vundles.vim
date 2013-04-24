@@ -47,10 +47,8 @@ if count(g:vundles, 'programming')
   Bundle 'scrooloose/nerdcommenter'
   Bundle 'godlygeek/tabular'
   Bundle 'ack.vim'
-  if executable('ctags')
-    Bundle 'majutsushi/tagbar'
-  endif
   if v:version > 700
+    Bundle 'majutsushi/tagbar'
     Bundle 'Shougo/neocomplcache'
     Bundle 'Shougo/neosnippet'
     Bundle 'Indent-Guides'

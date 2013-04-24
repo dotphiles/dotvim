@@ -8,20 +8,7 @@
 "
 
 if has("user_commands")
-  if !empty($ITERM_PROFILE)
-    if $ITERM_PROFILE == 'soldark'
-      set background=dark
-      colorscheme solarized
-    elseif $ITERM_PROFILE == 'sollight'
-      set background=light
-      colorscheme solarized
-    else
-      set background=dark
-      colorscheme $ITERM_PROFILE
-    endif
-  else
-    set background=dark
-    colorscheme solarized
-  endif
+  set background=dark
+  colorscheme solarized
 endif
 
