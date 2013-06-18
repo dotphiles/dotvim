@@ -18,6 +18,8 @@ if count(g:vundles, 'general')
   Bundle 'YankRing.vim'
   let g:yankring_history_dir = $HOME.'/.vim/'
   let g:yankring_history_file = '.yankring_history'
+  Bundle 'tpope/vim-repeat'
+  Bundle 'AutoClose'
   Bundle 'kien/ctrlp.vim'
   Bundle 'jistr/vim-nerdtree-tabs'
   Bundle 'corntrace/bufexplorer'
@@ -85,6 +87,7 @@ endif
 if count(g:vundles, 'html')
   Bundle 'HTML-AutoCloseTag'
   Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
+  Bundle 'juvenn/mustache.vim'
 endif
 
 " Ruby
