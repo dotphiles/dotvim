@@ -8,7 +8,8 @@
 "
 
 if has("user_commands")
+  set t_Co=256
+  let g:solarized_termtrans = 1
   set background=dark
   colorscheme solarized
 endif
-

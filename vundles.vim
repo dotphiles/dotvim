@@ -21,7 +21,7 @@ if count(g:vundles, 'general')
   Bundle 'kien/ctrlp.vim'
   Bundle 'vim-scripts/sessionman.vim'
   Bundle 'matchit.zip'
-  Bundle 'Lokaltog/vim-powerline'
+  "  Bundle 'Lokaltog/vim-powerline'
   Bundle 'Lokaltog/vim-easymotion'
   Bundle 'jistr/vim-nerdtree-tabs'
   Bundle 'flazz/vim-colorschemes'
@@ -33,7 +33,6 @@ if count(g:vundles, 'general')
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'tpope/vim-fugitive'
   Bundle 'k-takata/hg-vim'
-  Bundle 'honza/snipmate-snippets'
   if v:version > 700
     Bundle 'Shougo/vimproc'
     Bundle 'Shougo/vimshell'
