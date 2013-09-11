@@ -42,11 +42,11 @@ endif
 " General Programming
 if count(g:vundles, 'programming')
   " Pick one of the checksyntax, jslint, or syntastic
-  Bundle 'scrooloose/syntastic'
   Bundle 'scrooloose/nerdcommenter'
   Bundle 'godlygeek/tabular'
   Bundle 'ack.vim'
   if v:version > 700
+    Bundle 'scrooloose/syntastic'
     Bundle 'majutsushi/tagbar'
     Bundle 'Shougo/neocomplcache'
     Bundle 'Shougo/neosnippet'
