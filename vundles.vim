@@ -33,6 +33,8 @@ if count(g:vundles, 'general')
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'tpope/vim-fugitive'
   Bundle 'k-takata/hg-vim'
+  Bundle 'bling/vim-airline'
+  Bundle 'puppetlabs/puppet-syntax-vim'
   if v:version > 700
     Bundle 'Shougo/vimproc'
     Bundle 'Shougo/vimshell'
