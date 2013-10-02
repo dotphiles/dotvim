@@ -53,6 +53,9 @@ if count(g:vundles, 'programming')
     Bundle 'Shougo/neocomplcache'
     Bundle 'Shougo/neosnippet'
     Bundle 'Indent-Guides'
+    Bundle 'hynek/vim-python-pep8-indent'
+    Bundle 'yodiaditya/vim-pydjango'
+    let g:syntastic_python_flake8_args='--ignore=E501'
   endif
 endif
 
