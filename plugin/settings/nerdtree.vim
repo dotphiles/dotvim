@@ -28,3 +28,4 @@ function! s:CloseIfOnlyNerdTreeLeft()
 endfunction
 
 let NERDTreeIgnore = ['\.pyc$']
+

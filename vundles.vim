@@ -21,7 +21,7 @@ if count(g:vundles, 'general')
   Bundle 'kien/ctrlp.vim'
   Bundle 'vim-scripts/sessionman.vim'
   Bundle 'matchit.zip'
-  Bundle 'Lokaltog/vim-powerline'
+  "  Bundle 'Lokaltog/vim-powerline'
   Bundle 'Lokaltog/vim-easymotion'
   Bundle 'jistr/vim-nerdtree-tabs'
   Bundle 'flazz/vim-colorschemes'
@@ -33,7 +33,8 @@ if count(g:vundles, 'general')
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'tpope/vim-fugitive'
   Bundle 'k-takata/hg-vim'
-  Bundle 'honza/snipmate-snippets'
+  Bundle 'bling/vim-airline'
+  Bundle 'puppetlabs/puppet-syntax-vim'
   if v:version > 700
     Bundle 'Shougo/vimproc'
     Bundle 'Shougo/vimshell'
@@ -43,15 +44,18 @@ endif
 " General Programming
 if count(g:vundles, 'programming')
   " Pick one of the checksyntax, jslint, or syntastic
-  Bundle 'scrooloose/syntastic'
   Bundle 'scrooloose/nerdcommenter'
   Bundle 'godlygeek/tabular'
   Bundle 'ack.vim'
   if v:version > 700
+    Bundle 'scrooloose/syntastic'
     Bundle 'majutsushi/tagbar'
     Bundle 'Shougo/neocomplcache'
     Bundle 'Shougo/neosnippet'
     Bundle 'Indent-Guides'
+    Bundle 'hynek/vim-python-pep8-indent'
+    Bundle 'yodiaditya/vim-pydjango'
+    let g:syntastic_python_flake8_args='--ignore=E501'
   endif
 endif
 
