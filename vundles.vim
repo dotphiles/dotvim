@@ -50,8 +50,8 @@ if count(g:vundles, 'programming')
   if v:version > 700
     Bundle 'scrooloose/syntastic'
     Bundle 'majutsushi/tagbar'
-    Bundle 'Shougo/neocomplcache'
-    Bundle 'Shougo/neosnippet'
+ ""   Bundle 'Shougo/neocomplcache'
+ ""   Bundle 'Shougo/neosnippet'
     Bundle 'Indent-Guides'
     Bundle 'hynek/vim-python-pep8-indent'
     Bundle 'yodiaditya/vim-pydjango'
