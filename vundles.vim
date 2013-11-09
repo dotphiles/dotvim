@@ -38,6 +38,7 @@ if count(g:vundles, 'general')
   if v:version > 700
     Bundle 'Shougo/vimproc'
     Bundle 'Shougo/vimshell'
+    Bundle "myusuf3/numbers.vim"
   endif
 endif
 
