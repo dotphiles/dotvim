@@ -95,9 +95,6 @@ if exists('g:loaded_neocomplcache')
 
   " For perlomni.vim setting.
   " https://github.com/c9s/perlomni.vim
-  let g:neocomplcache_omni_patterns.perl = '\h\w*->\h\w*\|\h\w*::'"
-
-  " Tell Neosnippet about the other snippets
-  let g:neosnippet#snippets_directory='~/.vim/bundle/snipmate-snippets/snippets'
+  let g:neocomplcache_omni_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 
 endif

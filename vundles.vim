@@ -33,7 +33,7 @@ if count(g:vundles, 'general')
   Bundle 'tpope/vim-fugitive'
   Bundle 'k-takata/hg-vim'
   Bundle 'bling/vim-airline'
-  Bundle 'puppetlabs/puppet-syntax-vim'
+  Bundle 'rodjek/vim-puppet'
   if v:version > 700
     Bundle 'Shougo/vimproc'
     Bundle 'Shougo/vimshell'
@@ -54,6 +54,8 @@ if count(g:vundles, 'programming')
     Bundle 'majutsushi/tagbar'
     Bundle 'Shougo/neocomplcache'
     Bundle 'Shougo/neosnippet'
+    Bundle 'scrooloose/snipmate-snippets'
+    Bundle 'honza/vim-snippets'
     Bundle 'Indent-Guides'
     Bundle 'hynek/vim-python-pep8-indent'
     Bundle 'yodiaditya/vim-pydjango'
@@ -100,4 +102,3 @@ if count(g:vundles, 'misc')
   Bundle 'tpope/vim-cucumber'
   Bundle 'Puppet-Syntax-Highlighting'
 endif
-
