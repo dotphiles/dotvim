@@ -70,7 +70,6 @@ if count(g:vundles, 'programming')
     Bundle 'honza/vim-snippets'
     Bundle 'Indent-Guides'
     Bundle 'hynek/vim-python-pep8-indent'
-    Bundle 'yodiaditya/vim-pydjango'
     let g:syntastic_python_flake8_args='--ignore=E501'
   endif
 endif
