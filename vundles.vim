@@ -33,8 +33,12 @@ if count(g:vundles, 'general')
   Bundle 'SearchComplete'
   Bundle 'sudo.vim'
   Bundle 'bronson/vim-trailing-whitespace'
-  Bundle 'tpope/vim-fugitive'
-  Bundle 'k-takata/hg-vim'
+  if executable('git')
+    Bundle 'tpope/vim-fugitive'
+  endif
+  if executable('hg')
+    Bundle 'k-takata/hg-vim'
+  endif
   Bundle 'bling/vim-airline'
   Bundle 'rodjek/vim-puppet'
   if v:version > 700
@@ -51,10 +55,14 @@ if count(g:vundles, 'programming')
   " Pick one of the checksyntax, jslint, or syntastic
   Bundle 'scrooloose/nerdcommenter'
   Bundle 'godlygeek/tabular'
-  Bundle 'ack.vim'
+  if executable('ack')
+    Bundle 'mileszs/ack.vim'
+  endif
   if v:version > 700
     Bundle 'scrooloose/syntastic'
-    Bundle 'majutsushi/tagbar'
+    if executable('ctags')
+      Bundle 'majutsushi/tagbar'
+    endif
     Bundle 'Shougo/neocomplcache'
     Bundle 'Shougo/neosnippet'
     Bundle 'scrooloose/snipmate-snippets'
