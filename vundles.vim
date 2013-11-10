@@ -34,9 +34,9 @@ if count(g:vundles, 'general')
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'mbbill/undotree'
   Bundle 'mhinz/vim-startify'
+  Bundle 'mhinz/vim-signify'
   if executable('git')
     Bundle 'tpope/vim-fugitive'
-    Bundle 'airblade/vim-gitgutter'
   endif
   if executable('hg')
     Bundle 'k-takata/hg-vim'
