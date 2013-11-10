@@ -35,6 +35,7 @@ if count(g:vundles, 'general')
   Bundle 'mbbill/undotree'
   if executable('git')
     Bundle 'tpope/vim-fugitive'
+    Bundle 'airblade/vim-gitgutter'
   endif
   if executable('hg')
     Bundle 'k-takata/hg-vim'

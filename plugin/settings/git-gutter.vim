@@ -1,11 +1,12 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" setup eyaml to use yaml syntax highlighting
+" Setup git-gutter
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-au BufNewFile,BufRead *.eyaml setlocal ft=yaml
+nmap <F9> :GitGutterToggle<CR>
+nmap <F10> :GitGutterLineHighlightsToggle<CR>
 
