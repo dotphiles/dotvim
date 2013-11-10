@@ -33,6 +33,7 @@ if count(g:vundles, 'general')
   Bundle 'SearchComplete'
   Bundle 'sudo.vim'
   Bundle 'bronson/vim-trailing-whitespace'
+  Bundle 'mbbill/undotree'
   if executable('git')
     Bundle 'tpope/vim-fugitive'
   endif

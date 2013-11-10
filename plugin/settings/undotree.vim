@@ -1,11 +1,11 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Setup buffexplorer
+" Setup undotree
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-map <C-b> :BufExplorer<CR>
+nnoremap <F3> :UndotreeToggle<cr>
 

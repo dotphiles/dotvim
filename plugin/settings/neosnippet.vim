@@ -1,7 +1,7 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Setup neocomplcache
+" Setup neosnippet
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
