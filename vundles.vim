@@ -21,7 +21,6 @@ if count(g:vundles, 'general')
   Bundle 'kien/ctrlp.vim'
   Bundle 'vim-scripts/sessionman.vim'
   Bundle 'matchit.zip'
-  "  Bundle 'Lokaltog/vim-powerline'
   Bundle 'Lokaltog/vim-easymotion'
   Bundle 'jistr/vim-nerdtree-tabs'
   Bundle 'flazz/vim-colorschemes'
@@ -53,8 +52,8 @@ if count(g:vundles, 'programming')
   if v:version > 700
     Bundle 'scrooloose/syntastic'
     Bundle 'majutsushi/tagbar'
- ""   Bundle 'Shougo/neocomplcache'
- ""   Bundle 'Shougo/neosnippet'
+    Bundle 'Shougo/neocomplcache'
+    Bundle 'Shougo/neosnippet'
     Bundle 'Indent-Guides'
     Bundle 'hynek/vim-python-pep8-indent'
     Bundle 'yodiaditya/vim-pydjango'
