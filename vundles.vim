@@ -19,6 +19,8 @@ if count(g:vundles, 'general')
   Bundle 'vimwiki'
   Bundle 'calendar.vim--Matsumoto'
   Bundle 'YankRing.vim'
+  let g:yankring_history_dir = $HOME.'/.vim/'
+  let g:yankring_history_file = '.yankring_history'
   Bundle 'kien/ctrlp.vim'
   let g:ctrlp_cmd = 'CtrlPMRU'
   Bundle 'vim-scripts/sessionman.vim'
@@ -98,7 +100,7 @@ endif
 
 " Misc
 if count(g:vundles, 'misc')
-  Bundle 'spf13/vim-markdown'
+  Bundle 'tpope/vim-markdown'
   Bundle 'spf13/vim-preview'
   Bundle 'tpope/vim-cucumber'
 endif
