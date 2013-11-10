@@ -22,7 +22,6 @@ if count(g:vundles, 'general')
   let g:yankring_history_dir = $HOME.'/.vim/'
   let g:yankring_history_file = '.yankring_history'
   Bundle 'kien/ctrlp.vim'
-  let g:ctrlp_cmd = 'CtrlPMRU'
   Bundle 'vim-scripts/sessionman.vim'
   Bundle 'matchit.zip'
   Bundle 'Lokaltog/vim-easymotion'
