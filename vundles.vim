@@ -98,7 +98,7 @@ endif
 
 " Misc
 if count(g:vundles, 'misc')
-  Bundle 'spf13/vim-markdown'
+  Bundle 'tpope/vim-markdown'
   Bundle 'spf13/vim-preview'
   Bundle 'tpope/vim-cucumber'
 endif
