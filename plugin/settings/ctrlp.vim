@@ -9,6 +9,9 @@
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc
 
+let g:ctrlp_switch_buffer = 'Et'
+let g:ctrlp_cmd = 'CtrlPMixed'
+
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/]\.(git|hg|svn)$',
   \ 'file': '\v\.(exe|so|dll)$',
