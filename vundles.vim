@@ -15,16 +15,10 @@ if count(g:vundles, 'general')
   Bundle 'scrooloose/nerdtree'
   Bundle 'altercation/vim-colors-solarized'
   Bundle 'tpope/vim-surround'
-  Bundle 'Raimondi/delimitMate'
-  Bundle 'vimwiki'
-  Bundle 'calendar.vim--Matsumoto'
   Bundle 'YankRing.vim'
   let g:yankring_history_dir = $HOME.'/.vim/'
   let g:yankring_history_file = '.yankring_history'
   Bundle 'kien/ctrlp.vim'
-  Bundle 'vim-scripts/sessionman.vim'
-  Bundle 'matchit.zip'
-  Bundle 'Lokaltog/vim-easymotion'
   Bundle 'jistr/vim-nerdtree-tabs'
   Bundle 'flazz/vim-colorschemes'
   Bundle 'corntrace/bufexplorer'
@@ -42,11 +36,6 @@ if count(g:vundles, 'general')
     Bundle 'k-takata/hg-vim'
   endif
   Bundle 'bling/vim-airline'
-  Bundle 'rodjek/vim-puppet'
-  if v:version > 700
-    Bundle 'Shougo/vimproc'
-    Bundle 'Shougo/vimshell'
-  endif
   if v:version > 703
     Bundle "myusuf3/numbers.vim"
   endif
@@ -54,8 +43,6 @@ endif
 
 " General Programming
 if count(g:vundles, 'programming')
-  " Pick one of the checksyntax, jslint, or syntastic
-  Bundle 'scrooloose/nerdcommenter'
   Bundle 'godlygeek/tabular'
   if executable('ack')
     Bundle 'mileszs/ack.vim'
@@ -70,9 +57,7 @@ if count(g:vundles, 'programming')
     Bundle 'scrooloose/snipmate-snippets'
     Bundle 'honza/vim-snippets'
     Bundle 'Indent-Guides'
-    Bundle 'hynek/vim-python-pep8-indent'
-    let g:syntastic_python_flake8_args='--ignore=E501'
-  endif
+ endif
 endif
 
 " PHP
@@ -82,7 +67,8 @@ endif
 
 " Python
 if count(g:vundles, 'python')
-  " Pick either python-mode or pyflakes & pydoc
+  Bundle 'hynek/vim-python-pep8-indent'
+  let g:syntastic_python_flake8_args='--ignore=E501'
   Bundle 'klen/python-mode'
   Bundle 'python.vim'
   Bundle 'python_match.vim'
