@@ -1,12 +1,11 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Setup numbers
+" Setup undotree
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-nnoremap <F5> :NumbersToggle<CR>
-nnoremap <F6> :NumbersOnOff<CR>
+nnoremap <F3> :UndotreeToggle<cr>
 

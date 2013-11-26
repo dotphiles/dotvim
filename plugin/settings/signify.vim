@@ -1,12 +1,11 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Setup numbers
+" Setup signify
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-nnoremap <F5> :NumbersToggle<CR>
-nnoremap <F6> :NumbersOnOff<CR>
-
+nmap <F9> :SignifyToggle<CR>
+nmap <F10> :SignifyToggleHighlight<CR>
