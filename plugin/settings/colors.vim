@@ -12,4 +12,6 @@ if has("user_commands")
   let g:solarized_termtrans = 1
   set background=dark
   colorscheme solarized
+  highlight clear SignColumn
+  autocmd ColorScheme * highlight clear SignColumn
 endif

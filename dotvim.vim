@@ -26,7 +26,6 @@ set visualbell          " use visual bell instead of beeping
 set laststatus=2        " always show the status lines
 set list listchars=tab:→\ ,trail:▸
 set cursorline
-set clipboard=unnamed
 
 " highlight spell errors
 hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black

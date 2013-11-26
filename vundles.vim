@@ -15,48 +15,48 @@ if count(g:vundles, 'general')
   Bundle 'scrooloose/nerdtree'
   Bundle 'altercation/vim-colors-solarized'
   Bundle 'tpope/vim-surround'
-  Bundle 'Raimondi/delimitMate'
-  Bundle 'vimwiki'
-  Bundle 'calendar.vim--Matsumoto'
+  Bundle 'YankRing.vim'
+  let g:yankring_history_dir = $HOME.'/.vim/'
+  let g:yankring_history_file = '.yankring_history'
   Bundle 'kien/ctrlp.vim'
-  Bundle 'vim-scripts/sessionman.vim'
-  Bundle 'matchit.zip'
-  "  Bundle 'Lokaltog/vim-powerline'
-  Bundle 'Lokaltog/vim-easymotion'
   Bundle 'jistr/vim-nerdtree-tabs'
   Bundle 'flazz/vim-colorschemes'
   Bundle 'corntrace/bufexplorer'
-  Bundle 'kien/ctrlp.vim'
   Bundle 'austintaylor/vim-indentobject'
   Bundle 'SearchComplete'
   Bundle 'sudo.vim'
   Bundle 'bronson/vim-trailing-whitespace'
-  Bundle 'tpope/vim-fugitive'
-  Bundle 'k-takata/hg-vim'
+  Bundle 'mbbill/undotree'
+  Bundle 'mhinz/vim-signify'
+  if executable('git')
+    Bundle 'tpope/vim-fugitive'
+  endif
+  if executable('hg')
+    Bundle 'k-takata/hg-vim'
+  endif
   Bundle 'bling/vim-airline'
-  Bundle 'puppetlabs/puppet-syntax-vim'
-  if v:version > 700
-    Bundle 'Shougo/vimproc'
-    Bundle 'Shougo/vimshell'
+  if v:version > 703
+    Bundle "myusuf3/numbers.vim"
   endif
 endif
 
 " General Programming
 if count(g:vundles, 'programming')
-  " Pick one of the checksyntax, jslint, or syntastic
-  Bundle 'scrooloose/nerdcommenter'
   Bundle 'godlygeek/tabular'
-  Bundle 'ack.vim'
+  if executable('ack')
+    Bundle 'mileszs/ack.vim'
+  endif
   if v:version > 700
     Bundle 'scrooloose/syntastic'
-    Bundle 'majutsushi/tagbar'
+    if executable('ctags')
+      Bundle 'majutsushi/tagbar'
+    endif
     Bundle 'Shougo/neocomplcache'
     Bundle 'Shougo/neosnippet'
+    Bundle 'scrooloose/snipmate-snippets'
+    Bundle 'honza/vim-snippets'
     Bundle 'Indent-Guides'
-    Bundle 'hynek/vim-python-pep8-indent'
-    Bundle 'yodiaditya/vim-pydjango'
-    let g:syntastic_python_flake8_args='--ignore=E501'
-  endif
+ endif
 endif
 
 " PHP
@@ -66,7 +66,8 @@ endif
 
 " Python
 if count(g:vundles, 'python')
-  " Pick either python-mode or pyflakes & pydoc
+  Bundle 'hynek/vim-python-pep8-indent'
+  let g:syntastic_python_flake8_args='--ignore=E501'
   Bundle 'klen/python-mode'
   Bundle 'python.vim'
   Bundle 'python_match.vim'
@@ -93,9 +94,8 @@ endif
 
 " Misc
 if count(g:vundles, 'misc')
-  Bundle 'spf13/vim-markdown'
+  Bundle 'tpope/vim-markdown'
   Bundle 'spf13/vim-preview'
   Bundle 'tpope/vim-cucumber'
-  Bundle 'Puppet-Syntax-Highlighting'
+  Bundle 'markcornick/vim-vagrant'
 endif
-

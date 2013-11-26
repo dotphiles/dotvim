@@ -1,11 +1,11 @@
 "
 " dotvim : https://github.com/dotphiles/dotvim
 "
-" Setup vimwiki
+" setup eyaml to use yaml syntax highlighting
 "
 " Authors:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
-let g:vimwiki_list = [{'path': '~/.vim/wiki/'}]
+au BufNewFile,BufRead *.eyaml setlocal ft=yaml
 
