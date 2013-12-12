@@ -8,6 +8,7 @@
 "
 
 if has("user_commands")
+  set t_Co=256
   set background=dark
   colorscheme base16-default
   highlight clear SignColumn
