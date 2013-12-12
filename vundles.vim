@@ -13,7 +13,6 @@ Bundle 'gmarik/vundle'
 " General
 if count(g:vundles, 'general')
   Bundle 'scrooloose/nerdtree'
-  Bundle 'altercation/vim-colors-solarized'
   Bundle 'chriskempson/base16-vim'
   Bundle 'tpope/vim-surround'
   Bundle 'YankRing.vim'
@@ -21,7 +20,6 @@ if count(g:vundles, 'general')
   let g:yankring_history_file = '.yankring_history'
   Bundle 'kien/ctrlp.vim'
   Bundle 'jistr/vim-nerdtree-tabs'
-  Bundle 'flazz/vim-colorschemes'
   Bundle 'corntrace/bufexplorer'
   Bundle 'austintaylor/vim-indentobject'
   Bundle 'SearchComplete'
