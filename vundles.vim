@@ -14,6 +14,7 @@ Bundle 'gmarik/vundle'
 if count(g:vundles, 'general')
   Bundle 'scrooloose/nerdtree'
   Bundle 'altercation/vim-colors-solarized'
+  Bundle 'chriskempson/base16-vim'
   Bundle 'tpope/vim-surround'
   Bundle 'YankRing.vim'
   let g:yankring_history_dir = $HOME.'/.vim/'
@@ -28,6 +29,7 @@ if count(g:vundles, 'general')
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'mbbill/undotree'
   Bundle 'mhinz/vim-signify'
+  Bundle 'Raimondi/delimitMate'
   if executable('git')
     Bundle 'tpope/vim-fugitive'
   endif
