@@ -40,6 +40,7 @@ if count(g:vundles, 'general')
   if v:version > 703
     Bundle "myusuf3/numbers.vim"
   endif
+  Bundle 'rodjek/vim-puppet'
 endif
 
 " General Programming
