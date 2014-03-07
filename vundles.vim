@@ -105,4 +105,5 @@ if count(g:vundles, 'misc')
   Bundle 'markcornick/vim-vagrant'
   Bundle 'Puppet-Syntax-Highlighting'
   Bundle 'ekalinin/Dockerfile.vim'
+  Bundle 'zhaocai/GoldenView.Vim'
 endif
