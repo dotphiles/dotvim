@@ -105,6 +105,8 @@ if count(g:vundles, 'misc')
   Bundle 'markcornick/vim-vagrant'
   Bundle 'Puppet-Syntax-Highlighting'
   Bundle 'ekalinin/Dockerfile.vim'
-  Bundle 'zhaocai/GoldenView.Vim'
+  if v:version > 701
+    Bundle 'zhaocai/GoldenView.Vim'
+  endif
   let g:goldenview__enable_default_mapping=0
 endif
