@@ -22,11 +22,12 @@ let g:ctrlp_prompt_mappings = {
 
 let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:20,results:25'
 
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f']
-let g:ctrlp_use_caching = 0
-
 " Directories to ignore
 set wildignore+=*/smarty_c/**
 set wildignore+=*/vendor/**
 set wildignore+=*/bower_components/**
+
+let g:ctrlp_clear_cache_on_exit = 0
+let g:ctrlp_show_hidden = 1
+let g:ctrlp_follow_symlinks = 1
 
