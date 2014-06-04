@@ -14,35 +14,33 @@ Bundle 'gmarik/vundle'
 if count(g:vundles, 'general')
   Bundle 'scrooloose/nerdtree'
   Bundle 'chriskempson/base16-vim'
-  Bundle 'tpope/vim-surround'
   Bundle 'YankRing.vim'
   let g:yankring_history_dir = $HOME.'/.vim/'
   let g:yankring_history_file = '.yankring_history'
-  Bundle 'tpope/vim-repeat'
-  Bundle 'AutoClose'
+  ""Bundle 'tpope/vim-repeat'
+  ""Bundle 'AutoClose'
   Bundle 'kien/ctrlp.vim'
   Bundle 'jistr/vim-nerdtree-tabs'
-  Bundle 'corntrace/bufexplorer'
-  Bundle 'austintaylor/vim-indentobject'
-  Bundle 'SearchComplete'
   Bundle 'sudo.vim'
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'mbbill/undotree'
   Bundle 'mhinz/vim-signify'
   Bundle 'Raimondi/delimitMate'
-  if executable('git')
-    Bundle 'tpope/vim-fugitive'
-  endif
-  if executable('hg')
-    Bundle 'k-takata/hg-vim'
-  endif
   Bundle 'bling/vim-airline'
-  if v:version > 703
-    Bundle "myusuf3/numbers.vim"
-  endif
   Bundle 'rodjek/vim-puppet'
 endif
 
+if count(g:vundles, 'git')
+  if executable('git')
+    Bundle 'tpope/vim-fugitive'
+  endif
+endif
+
+if count(g:vundles, 'hg')
+ if executable('hg')
+    Bundle 'k-takata/hg-vim'
+  endif
+endif
 " General Programming
 if count(g:vundles, 'programming')
   Bundle 'godlygeek/tabular'
@@ -54,13 +52,16 @@ if count(g:vundles, 'programming')
     if executable('ctags')
       Bundle 'majutsushi/tagbar'
     endif
+endif
+endif
+
+if count(g:vundles, 'completion')
     Bundle 'Shougo/neocomplcache'
     Bundle 'Shougo/neosnippet'
     Bundle 'Shougo/neosnippet-snippets'
     Bundle 'scrooloose/snipmate-snippets'
     Bundle 'honza/vim-snippets'
     Bundle 'Indent-Guides'
- endif
 endif
 
 " PHP
@@ -72,10 +73,6 @@ endif
 if count(g:vundles, 'python')
   Bundle 'hynek/vim-python-pep8-indent'
   let g:syntastic_python_flake8_args='--ignore=E501'
-  Bundle 'klen/python-mode'
-  Bundle 'python.vim'
-  Bundle 'python_match.vim'
-  Bundle 'pythoncomplete'
 endif
 
 " Javascript
