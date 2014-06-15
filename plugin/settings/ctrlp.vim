@@ -22,3 +22,12 @@ let g:ctrlp_prompt_mappings = {
 
 let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:20,results:25'
 
+" Directories to ignore
+set wildignore+=*/smarty_c/**
+set wildignore+=*/vendor/**
+set wildignore+=*/bower_components/**
+
+let g:ctrlp_clear_cache_on_exit = 0
+let g:ctrlp_show_hidden = 1
+let g:ctrlp_follow_symlinks = 1
+
