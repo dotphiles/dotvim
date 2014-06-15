@@ -27,3 +27,7 @@ set wildignore+=*/smarty_c/**
 set wildignore+=*/vendor/**
 set wildignore+=*/bower_components/**
 
+let g:ctrlp_clear_cache_on_exit = 0
+let g:ctrlp_show_hidden = 1
+let g:ctrlp_follow_symlinks = 1
+
