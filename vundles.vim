@@ -85,7 +85,7 @@ endif
 " HTML
 if count(g:vundles, 'html')
   Bundle 'HTML-AutoCloseTag'
-  Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
+  Bundle 'hail2u/vim-css3-syntax'
   Bundle 'juvenn/mustache.vim'
 endif
 
