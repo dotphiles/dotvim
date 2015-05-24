@@ -8,7 +8,7 @@
 "
 
 if has("user_commands")
-  set t_Co=256
+  let base16colorspace=256
   if (match($LC_TERM_PROFILE, "light") != -1)
     set background=light
   else
