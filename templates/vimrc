@@ -24,5 +24,8 @@ if has("user_commands")
   " Bundle 'reponame'
 endif
 
+" Override colorscheme from base16
+" let g:dotvim_colorscheme = 'scheme'
+
 " Customize to your needs...
 
