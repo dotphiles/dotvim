@@ -14,7 +14,9 @@ if has("user_commands")
   else
     set background=dark
   endif
-  if (match($LC_TERM_PROFILE, "base16-bright") != -1)
+  if (exists("g:dotvim_colorscheme"))
+    execute 'colorscheme '.g:dotvim_colorscheme
+  elseif (match($LC_TERM_PROFILE, "base16-bright") != -1)
     colorscheme base16-bright
   elseif (match($LC_TERM_PROFILE, "base16-chalk") != -1)
     colorscheme base16-chalk
