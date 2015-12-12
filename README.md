@@ -85,6 +85,8 @@ Plugins groups:
     - spf13/vim-preview
     - tpope/vim-cucumber
     - Puppet-Syntax-Highlighting
+  - Go
+    - fatih/vim-go
 
 General configuration
 ---------------------
