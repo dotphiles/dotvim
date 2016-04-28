@@ -108,3 +108,8 @@ if count(g:vundles, 'misc')
   endif
   let g:goldenview__enable_default_mapping=0
 endif
+
+" Go
+if count(g:vundles, 'go')
+  Bundle 'fatih/vim-go'
+endif
