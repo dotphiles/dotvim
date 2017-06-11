@@ -8,7 +8,6 @@
 "
 
 if has("user_commands")
-  let base16colorspace=256
   if (match($LC_TERM_PROFILE, "light") != -1)
     set background=light
   else
@@ -39,7 +38,7 @@ if has("user_commands")
   elseif (match($LC_TERM_PROFILE, "base16-tomorrow") != -1)
     colorscheme base16-tomorrow
   else
-    colorscheme base16-default
+    colorscheme base16-default-dark
   endif
   if (match($LC_TERM_PROFILE, "base16") != -1)
     highlight clear SignColumn
